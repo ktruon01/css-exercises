@@ -25,3 +25,44 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* my solution */
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  margin: 0;
+}
+
+body, .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  align-items: center;
+}
+
+button {
+  padding: 8px;
+}
